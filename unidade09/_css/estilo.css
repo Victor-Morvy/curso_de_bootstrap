@@ -1,0 +1,12 @@
+div.carousel-inner {
+max-height: 550px /* maximo de 550 pixels o height da imagem */
+
+}
+
+@media (min-width: 1170px) {
+
+	div.carousel-inner {
+		max-height: 700px; /* Quando chegar a 1170 pxels, vai aumentar o max-height para 700px */
+	}
+
+}
